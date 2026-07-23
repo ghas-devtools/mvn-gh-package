@@ -39,7 +39,7 @@ jobs:
     - name: Display files from feature-1
       run: |
         pwd
-        ls -la ls -la ${{github.workspace}}/SOURCE
+        ls -la ${{github.workspace}}/SOURCE
     
     # - name: Set up JDK 11
     #   uses: actions/setup-java@v2
